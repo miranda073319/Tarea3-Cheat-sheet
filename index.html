@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheat sheet</title>
+     <link rel="stylesheet" href="cheatsheet.css">
+</head>
+<body>
+    <h1>Cheat Sheet - HTML</h1>
+
+    <details>
+        <summary>&lt;!DOCTYPE html&gt;</summary>
+        <p>Indica al navegador que el documento está escrito en HTML</p>
+        <pre><code>&lt;!DOCTYPE html&gt;</code></pre>
+    </details>
+    
+    <details>
+        <summary>&lt;html&gt;</summary>
+        <p>Etiqueta raíz del documento HTML. Todo el contenido va dentro de ella.</p>
+        <pre><code>&lt;html lang="es"&gt;
+...&lt;/html&gt;</code></pre>
+    </details>
+
+    <details>
+        <summary>&lt;head&gt;</summary>
+        <p>Contiene metadatos del documento, como el título, enlaces a estilos o scripts.</p>
+        <pre><code>&lt;head&gt;
+         &lt;title&gt;Mi página&lt;/title&gt;
+&lt;/head&gt;</code></pre>
+    </details>
+
+    <details>
+        <summary>&lt;body&gt;</summary>
+        <p>Contiene todo el contenido visible de la página web, como texto, imagenes, videos, etc.</p>
+        <pre><code>
+        &lt;body&gt;
+        &lt;h1&gt;Hola Mundo&lt;/h1&gt;
+        &lt;/body&gt;</code></pre>
+    </details>
+
+    <details>
+        <summary>&lt;title&gt;</summary>
+        <p>Define el título de la página que aparece en la pestaña del navegador.</p>
+        <pre><code>&lt;title&gt;Mi Página Web&lt;/title&gt;</code></pre>
+    </details>
+
+    <details>
+        <summary>&lt;p&gt;</summary>
+        <p>Define un párrafo de texto, se usa para separar bloques de texto.</p>
+        <pre><code>&lt;p&gt;Este es un párrafo.&lt;/p&gt;</code></pre>
+    </details>
+
+    <details>
+        <summary>&lt;header&gt;</summary>
+        <p>Seccion de cabecera de la pagina, contiene normalmente un logo, titulo o menu de navegacion.</p>
+        <pre><code>&lt;header&gt;Logo de la pagina&lt;/header&gt;</code></pre>
+    </details>
+
+    <details>
+        <summary>&lt;nav&gt;</summary>
+        <p>Define un menú de navegación con enlaces a otras partes del sitio.</p>
+        <pre><code>&lt;nav&gt;&lt;a href="#"&gt;Inicio&lt;/a&gt;&lt;/nav&gt;</code></pre>
+    </details>
+
+    <details>
+        <summary>&lt;main&gt;</summary>
+        <p>Contenido principal de la pagina, solo debe existir uno por pagina</p>
+        <pre><code>
+            &lt;main&gt;
+            &lt;h1&gt;Bienvenido&lt;/h1&gt;
+            &lt;p&gt;Contenido principal&lt;/p&gt;
+            &lt;/main&gt;
+        </code></pre>
+    </details>
+
+    <details>
+        <summary>&lt;aside&gt;</summary>
+        <p>Contenido lateral o complementario, como barras laterales o publicidad.</p>
+        <pre><code>&lt;aside&gt;Enlaces relacionados &lt;/aside&gt;</code></pre>
+    </details>
+
+    <details>
+        <summary>&lt;footer&gt;</summary>
+        <p>Pie de página con información de contacto, copyright o enlaces legales.</p>
+        <pre><code>&lt;footer&gt;© 2025 Mi sitio web &lt;/footer&gt;</code></pre>
+    </details>
+    
+    <details>
+        <summary>&lt;h1&gt; - &lt;h6&gt;</summary>
+        <p>Encabezados de importancia decreciente. h1 es el más importante y h6 el menos.</p>
+        <pre><code>
+        &lt;h1&gt;Título Principal&lt;/h1&gt;
+        &lt;h2&gt;Subtítulo&lt;/h2&gt;</code></pre>
+    </details>
+
+    <details>
+        <summary>&lt;span&gt;</summary>
+        <p>Contenedor en línea para aplicar estilos o agrupar texto.</p>
+        <pre><code>
+            &lt;main&gt;
+            &lt;h1&gt;Bienvenido&lt;/h1&gt;
+            &lt;p&gt;Contenido principal&lt;/p&gt;
+            &lt;/main&gt;
+        </code></pre>
+    </details>
+
+    <details>
+        <summary>&lt;div&gt;</summary>
+        <p>Contenedor en bloque para agrupar secciones de contenido.</p>
+        <pre><code>
+        &lt;div&gt;&lt;p&gt;Texto dentro de un div&lt;/p&gt; &lt;/div&gt;
+        </code></pre>
+    </details>
+
+    <details>
+        <summary>&lt;a&gt;</summary>
+        <p>Crea un enlace.</p>
+        <pre><code>&lt;a href="https://www.google.com"&gt;Ir a Google&lt;/a&gt;</code></pre>
+    </details>
+
+    <details>
+  <summary>&lt;ol&gt;, &lt;ul&gt;, &lt;li&gt;</summary>
+  <p>Etiquetas para listas.<br>
+    <strong>&lt;ol&gt;</strong> crea una lista ordenada (numerada).<br>
+    <strong>&lt;ul&gt;</strong> crea una lista desordenada (con viñetas).<br>
+    <strong>&lt;li&gt;</strong> define cada elemento de la lista.
+  </p>
+  <pre><code>&lt;ol&gt;
+  &lt;li&gt;Primero&lt;/li&gt;
+  &lt;li&gt;Segundo&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Uno&lt;/li&gt;
+  &lt;li&gt;Dos&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+</details>
+
+
+    <details>
+        <summary>&lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt;</summary>
+        <p>Etiquetas para listas de definiciones.<br>
+            <strong>&lt;dl&gt;</strong> lista de definiciones.<br>
+            <strong>&lt;dt&gt;</strong> término.<br>
+            <strong>&lt;dd&gt;</strong> definición o descripción.
+        </p>
+        <pre><code>&lt;dl&gt;
+&lt;dt&gt;HTML&lt;/dt&gt;
+&lt;dd&gt;Lenguaje de marcado para la web&lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
+    </details>
+
+    <details>
+  <summary>&lt;table&gt;, &lt;tr&gt;, &lt;td&gt;, &lt;th&gt;</summary>
+  <p>Etiquetas para tablas.<br>
+    <strong>&lt;table&gt;</strong> crea la tabla.<br>
+    <strong>&lt;tr&gt;</strong> fila.<br>
+    <strong>&lt;td&gt;</strong> celda normal.<br>
+    <strong>&lt;th&gt;</strong> celda de encabezado.
+  </p>
+  <pre><code>&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Nombre&lt;/th&gt;
+    &lt;th&gt;Edad&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Ana&lt;/td&gt;
+    &lt;td&gt;20&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+</details>
+
+<details>
+  <summary>&lt;thead&gt;, &lt;tbody&gt;, &lt;tfoot&gt;</summary>
+  <p>Secciones de una tabla.<br>
+    <strong>&lt;thead&gt;</strong> encabezado.<br>
+    <strong>&lt;tbody&gt;</strong> cuerpo.<br>
+    <strong>&lt;tfoot&gt;</strong> pie de tabla.
+  </p>
+  <pre><code>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;&lt;th&gt;Columna&lt;/th&gt;&lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;&lt;td&gt;Dato&lt;/td&gt;&lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;&lt;td&gt;Total&lt;/td&gt;&lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;</code></pre>
+</details>    
+
+    <details>
+        <summary>&lt;img&gt;, &lt;audio&gt;, &lt;video&gt;, &lt;source&gt;</summary>
+        <p>Etiquetas para medios.<br>
+            <strong>&lt;img&gt;</strong> imagen.<br>
+            <strong>&lt;audio&gt;</strong> sonido.<br>
+            <strong>&lt;video&gt;</strong> video.<br>
+            <strong>&lt;source&gt;</strong> fuente del archivo multimedia.
+        </p>
+        <pre><code>&lt;img src="foto.jpg" alt="Descripción"&gt;
+
+&lt;audio controls&gt;
+ &lt;source src="audio.mp3" type="audio/mpeg"&gt;
+&lt;/audio&gt;
+
+&lt;video controls&gt;
+&lt;source src="video.mp4" type="video/mp4"&gt;
+&lt;/video&gt;</code></pre>
+    </details>
+
+    <details>
+        <summary>&lt;form&gt;</summary>
+        <p>Define un formulario para recolectar datos.</p>
+        <pre><code>&lt;form action="/enviar" method="post"&gt;
+        &lt;input type="text" name="nombre"&gt;
+        &lt;input type="submit" value="Enviar"&gt;
+&lt;/form&gt;</code></pre>
+    </details>
+
+    <details>
+        <summary>&lt;input&gt;</summary>
+        <p>Campo de entrada en formularios (texto, número, correo, etc.).</p>
+        <pre><code>&lt;input type="text" placeholder="Escribe tu nombre"&gt;
+&lt;input type="email" placeholder="Correo"&gt;</code></pre>
+    </details>
+
+    <details>
+        <summary>&lt;select&gt;, &lt;option&gt;</summary>
+        <p>Menú desplegable.<br>
+            <strong>&lt;select&gt;</strong> define la lista.<br>
+            <strong>&lt;option&gt;</strong> cada opción del menú.
+        </p>
+        <pre><code>&lt;select&gt;
+    &lt;option&gt;Opción 1&lt;/option&gt;
+    &lt;option&gt;Opción 2&lt;/option&gt;
+&lt;/select&gt;</code></pre>
+    </details>
+
+    <details>
+        <summary>&lt;textarea&gt;</summary>
+        <p>Área de texto multilínea en formularios.</p>
+        <pre><code>&lt;textarea rows="4" cols="30"&gt;Escribe aquí...&lt;/textarea&gt;</code></pre>
+    </details>
+
+    <details>
+        <summary>&lt;label&gt;</summary>
+        <p>Etiqueta asociada a un campo de formulario, mejora la accesibilidad.</p>
+        <pre><code>&lt;label for="nombre"&gt;Nombre:&lt;/label&gt;
+&lt;input id="nombre" type="text"&gt;</code></pre>
+    </details>
+
+
+
+
+
+</body>
+</html>
